@@ -9,9 +9,9 @@ export default class MainNavParent extends Component {
     this.state = {
         tableArray: [],        
         searchUsersList: listUsers,
-        searchFilteredUsersList: listUsers,
+        searchFilteredUsersList: [],
         searchColorsList: listColors,
-        searchFilteredColorsList: listColors,        
+        searchFilteredColorsList: [],        
         open: true,
         showResults: false,        
         searchInput: '',
