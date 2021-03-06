@@ -1,0 +1,20 @@
+.box {
+    display: block;
+    position: fixed;
+    top: 14px;
+    right: -17px;
+    max-width: 50vw;
+    min-width: 20vw;
+    max-height: 70vh;
+    min-height: 10vh;
+    margin: 40px;    
+    background-color: white; /* Needed for IEs */
+    border: none;
+    padding: 10px;
+    opacity: 1;
+    z-index: 99;
+    -moz-box-shadow: 5px 10px 8px #888888;
+    -webkit-box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #888888;      
+    zoom: 1;
+}
